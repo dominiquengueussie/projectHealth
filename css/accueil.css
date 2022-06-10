@@ -21,7 +21,7 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: all .2s linear;
+    /*transition: all .2s linear;*/
     line-height: 1.5;
 }
 
@@ -45,6 +45,7 @@ body {
     position: absolute;
     color: var(--white-color);
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     top: 2.5rem;
     left: 30rem;
     text-transform: uppercase;
@@ -63,7 +64,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     position: relative;
-    left: 55rem;
+    left: 50rem;
     top: 5rem;
 }
 
@@ -79,14 +80,11 @@ body {
 }
 
 .menu-items li .sub-menu1 {
-    position: absolute;
-    left: 8.5rem;
-    top: 5rem;
     text-align: center;
     align-items: justify;
     background-color: var(--blue-color);
     display: none;
-    width: 12rem;
+    width: 16rem;
     z-index: 500;
 }
 
@@ -114,7 +112,6 @@ body {
 }
 
 .menu-items li .sub-menu4 {
-    padding-top: 0px;
     text-align: center;
     align-items: justify;
     background-color: var(--blue-color);
@@ -125,26 +122,25 @@ body {
 
 .menu-items li:hover .sub-menu1 {
     position: absolute;
-    left: 8.5rem;
-    top: 5rem;
+    left: 7rem;
+    top: 5.5rem;
     text-align: center;
-    align-items: justify;
+    align-items: center;
     background-color: var(--blue-color);
     display: block;
-    transition: all 2s ease;
-    width: 12rem;
+    width: 17rem;
     z-index: 500;
 }
 
 .menu-items li:hover .sub-menu2 {
     position: absolute;
-    left: 14rem;
-    top: 5rem;
+    left: 15rem;
+    top: 5.5rem;
     text-align: center;
     align-items: justify;
     background-color: var(--blue-color);
     display: block;
-    transition: ease-in-out 3s;
+    /* transition: ease-in-out 3s;*/
     width: 20rem;
     z-index: 500;
 }
@@ -163,21 +159,21 @@ body {
 
 .menu-items li:hover .sub-menu3 {
     position: absolute;
-    left: 25rem;
-    top: 5rem;
+    left: 27rem;
+    top: 5.5rem;
     text-align: center;
     align-items: justify;
     background-color: var(--blue-color);
     display: block;
-    transition: ease-in-out 3s;
+    /*transition: ease-in-out 3s;*/
     width: 20rem;
     z-index: 500;
 }
 
 .menu-items li:hover .sub-menu4 {
     position: absolute;
-    left: 37rem;
-    top: 5rem;
+    left: 38rem;
+    top: 5.5rem;
     text-align: center;
     align-items: justify;
     background-color: var(--blue-color);
@@ -190,7 +186,7 @@ body {
 a:hover {
     color: var(--white-color);
     font-size: 25px;
-    transition: all .5s ease-in-out;
+    /*transition: all .5s ease-in-out;*/
 }
 
 #cart {
