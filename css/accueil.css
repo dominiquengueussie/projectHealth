@@ -1,451 +1,451 @@
-                                                                                                                                 :root {
-                                                                                                                                    --blue-color: #157fda;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                 :root {
-                                                                                                                                    --white-color: #fffffc;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                * {
-                                                                                                                                    font-family: 'Roboto', sans-serif;
-                                                                                                                                    margin: 0;
-                                                                                                                                    padding: 0;
-                                                                                                                                    box-sizing: border-box;
-                                                                                                                                    outline: none;
-                                                                                                                                    border: none;
-                                                                                                                                    text-decoration: none;
-                                                                                                                                    line-height: 1.5;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                html {
-                                                                                                                                    font-size: 62.5%;
-                                                                                                                                    overflow: scroll;
-                                                                                                                                    scroll-behavior: smooth;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                body {
-                                                                                                                                    background-image: url('../images/slider-bg.png');
-                                                                                                                                    background-attachment: fixed;
-                                                                                                                                    background-position: center;
-                                                                                                                                    background-size: cover;
-                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                    position: fixed;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .logo img {
-                                                                                                                                    width: 80px;
-                                                                                                                                    height: 80px;
-                                                                                                                                    border-radius: 80px;
-                                                                                                                                    position: absolute;
-                                                                                                                                    top: 10px;
-                                                                                                                                    left: 15rem;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .nav-bar {
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    margin-top: 0px 0px 0px 0px;
-                                                                                                                                    height: 120px;
-                                                                                                                                    width: 100%;
-                                                                                                                                    position: fixed;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items {
-                                                                                                                                    display: flex;
-                                                                                                                                    flex-wrap: nowrap;
-                                                                                                                                    position: relative;
-                                                                                                                                    left: 50rem;
-                                                                                                                                    top: 5rem;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li {
-                                                                                                                                    list-style: none;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items a {
-                                                                                                                                    color: var(--white-color);
-                                                                                                                                    font-family: 'Lobster', cursive;
-                                                                                                                                    padding: 15px;
-                                                                                                                                    font-size: 20px;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li .sub-menu1 {
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: none;
-                                                                                                                                    width: 16rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li .sub-menu2 {
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 18rem;
-                                                                                                                                    top: 5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: none;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li .sub-menu3 {
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 37rem;
-                                                                                                                                    top: 5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: none;
-                                                                                                                                    width: 15rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li .sub-menu4 {
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: none;
-                                                                                                                                    width: 20rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li:hover .sub-menu1 {
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 4rem;
-                                                                                                                                    top: 5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: center;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: block;
-                                                                                                                                    width: 22rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li:hover .sub-menu2 {
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 16rem;
-                                                                                                                                    top: 5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: block;
-                                                                                                                                    width: 25rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li:hover .sub-menu1 a,
-                                                                                                                                .sub-menu2 a,
-                                                                                                                                .sub-menu3 a,
-                                                                                                                                .sub-menu4 a {
-                                                                                                                                    line-height: 50px;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li:hover .sub-menu3 {
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 25rem;
-                                                                                                                                    top: 5.5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: block;
-                                                                                                                                    width: 27rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu-items li:hover .sub-menu4 {
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 42rem;
-                                                                                                                                    top: 5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    align-items: justify;
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    display: block;
-                                                                                                                                    width: 20rem;
-                                                                                                                                    z-index: 500;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                #cart {
-                                                                                                                                    font-size: 30px;
-                                                                                                                                    position: absolute;
-                                                                                                                                    left: 95rem;
-                                                                                                                                    top: -.6rem;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .menu {
-                                                                                                                                    width: 50px;
-                                                                                                                                    height: 50px;
-                                                                                                                                    position: absolute;
-                                                                                                                                    top: 1rem;
-                                                                                                                                    left: 2rem;
-                                                                                                                                    visibility: hidden;
-                                                                                                                                    display: flex;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .section1 {
-                                                                                                                                    width: 500px;
-                                                                                                                                    height: 200px;
-                                                                                                                                    margin-top: 50px;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .slider {
-                                                                                                                                    background-color: var(--blue-color);
-                                                                                                                                    width: 40rem;
-                                                                                                                                    line-height: 100%;
-                                                                                                                                    font-size: 17px;
-                                                                                                                                    padding-top: 5rem;
-                                                                                                                                    text-align: center;
-                                                                                                                                    z-index: 999;
-                                                                                                                                    opacity: .9;
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                .slider a {
-                                                                                                                                    font-weight: bold;
-                                                                                                                                }
-                                                                                                                                /*********************************** MEDIA QUERY NAVBAR ******************************/
-                                                                                                                                
-                                                                                                                                @media (max-width:1350px) {
-                                                                                                                                    .logo img {
-                                                                                                                                        width: 60px;
-                                                                                                                                        height: 60px;
-                                                                                                                                        border-radius: 60px;
-                                                                                                                                        position: absolute;
-                                                                                                                                        top: 5px;
-                                                                                                                                        left: 30rem;
-                                                                                                                                    }
-                                                                                                                                    .nav-bar {
-                                                                                                                                        width: 100%;
-                                                                                                                                    }
-                                                                                                                                    .menu-items {
-                                                                                                                                        display: flex;
-                                                                                                                                        flex-wrap: wrap;
-                                                                                                                                        position: relative;
-                                                                                                                                        left: 14rem;
-                                                                                                                                        top: 8rem;
-                                                                                                                                    }
-                                                                                                                                    #cart {
-                                                                                                                                        font-size: 30px;
-                                                                                                                                        position: absolute;
-                                                                                                                                        left: 98rem;
-                                                                                                                                        top: -.6rem;
-                                                                                                                                    }
-                                                                                                                                    .menu-items li:hover .sub-menu1 {
-                                                                                                                                        position: absolute;
-                                                                                                                                        left: 4rem;
-                                                                                                                                        top: 4rem;
-                                                                                                                                        text-align: center;
-                                                                                                                                        align-items: center;
-                                                                                                                                        background-color: var(--blue-color);
-                                                                                                                                        display: block;
-                                                                                                                                        width: 22rem;
-                                                                                                                                        z-index: 500;
-                                                                                                                                    }
-                                                                                                                                    .menu-items li:hover .sub-menu2 {
-                                                                                                                                        position: absolute;
-                                                                                                                                        left: 14rem;
-                                                                                                                                        top: 4rem;
-                                                                                                                                        text-align: center;
-                                                                                                                                        align-items: justify;
-                                                                                                                                        background-color: var(--blue-color);
-                                                                                                                                        display: block;
-                                                                                                                                        width: 25rem;
-                                                                                                                                        z-index: 500;
-                                                                                                                                    }
-                                                                                                                                    .menu-items li:hover .sub-menu3 {
-                                                                                                                                        position: absolute;
-                                                                                                                                        left: 26rem;
-                                                                                                                                        top: 4rem;
-                                                                                                                                        text-align: center;
-                                                                                                                                        align-items: justify;
-                                                                                                                                        background-color: var(--blue-color);
-                                                                                                                                        display: block;
-                                                                                                                                        width: 27rem;
-                                                                                                                                        z-index: 500;
-                                                                                                                                    }
-                                                                                                                                    .menu-items li:hover .sub-menu4 {
-                                                                                                                                        position: absolute;
-                                                                                                                                        left: 42rem;
-                                                                                                                                        top: 4rem;
-                                                                                                                                        text-align: center;
-                                                                                                                                        align-items: justify;
-                                                                                                                                        background-color: var(--blue-color);
-                                                                                                                                        display: block;
-                                                                                                                                        width: 20rem;
-                                                                                                                                        text-shadow: 2px 2px 5px red;
-                                                                                                                                        box-shadow: 4px 4px 5px rgb(24, 191, 221);
-                                                                                                                                        border-bottom-left-radius: 5px;
-                                                                                                                                        border-bottom-right-radius: 5px;
-                                                                                                                                        z-index: 500;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:1180px) {
-                                                                                                                                    .logo img {
-                                                                                                                                        width: 60px;
-                                                                                                                                        height: 60px;
-                                                                                                                                        border-radius: 60px;
-                                                                                                                                        position: absolute;
-                                                                                                                                        top: 5px;
-                                                                                                                                        left: 50rem;
-                                                                                                                                        transition: 2s ease;
-                                                                                                                                    }
-                                                                                                                                    .nav-bar {
-                                                                                                                                        width: 100%;
-                                                                                                                                    }
-                                                                                                                                    .menu-items {
-                                                                                                                                        display: flex;
-                                                                                                                                        flex-wrap: wrap;
-                                                                                                                                        position: relative;
-                                                                                                                                        left: 7rem;
-                                                                                                                                        top: 8rem;
-                                                                                                                                        transition: 2 ease;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:1125px) {
-                                                                                                                                    .logo img {
-                                                                                                                                        width: 60px;
-                                                                                                                                        height: 60px;
-                                                                                                                                        border-radius: 60px;
-                                                                                                                                        position: absolute;
-                                                                                                                                        top: 30px;
-                                                                                                                                        left: 10rem;
-                                                                                                                                        transition: 1s ease;
-                                                                                                                                    }
-                                                                                                                                    .nav-bar {
-                                                                                                                                        width: 100%;
-                                                                                                                                    }
-                                                                                                                                    .menu-items {
-                                                                                                                                        visibility: hidden;
-                                                                                                                                    }
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 90%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                    .menu div:hover {
-                                                                                                                                        color: rgb(255, 106, 0);
-                                                                                                                                        cursor: pointer;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:1025px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 85%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:991px) {
-                                                                                                                                    .logo img {
-                                                                                                                                        width: 60px;
-                                                                                                                                        height: 60px;
-                                                                                                                                        border-radius: 60px;
-                                                                                                                                        position: absolute;
-                                                                                                                                        top: 30px;
-                                                                                                                                        left: 10rem;
-                                                                                                                                        transition: 1s ease;
-                                                                                                                                    }
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 90%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:915px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 47%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:805px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 40%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:768px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 40%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:645px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 80%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:605px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 35%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:485px) {
-                                                                                                                                    .logo img {
-                                                                                                                                        width: 60px;
-                                                                                                                                        height: 60px;
-                                                                                                                                        border-radius: 60px;
-                                                                                                                                        position: absolute;
-                                                                                                                                        top: 30px;
-                                                                                                                                        left: 10rem;
-                                                                                                                                        transition: 1s ease;
-                                                                                                                                    }
-                                                                                                                                    .nav-bar {
-                                                                                                                                        width: 100%;
-                                                                                                                                    }
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 75%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:547px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 72%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:415px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 57%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                
-                                                                                                                                @media (max-width:380px) {
-                                                                                                                                    .menu {
-                                                                                                                                        font-size: 50px;
-                                                                                                                                        visibility: visible;
-                                                                                                                                        margin-left: 80%;
-                                                                                                                                        margin-top: 1%;
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                                /*********************************** END MEDIA QUERY NAVBAR ******************************/
+                                                                                                                                    :root {
+                                                                                                                                       --blue-color: #157fda;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                    :root {
+                                                                                                                                       --white-color: #fffffc;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   * {
+                                                                                                                                       font-family: 'Roboto', sans-serif;
+                                                                                                                                       margin: 0;
+                                                                                                                                       padding: 0;
+                                                                                                                                       box-sizing: border-box;
+                                                                                                                                       outline: none;
+                                                                                                                                       border: none;
+                                                                                                                                       text-decoration: none;
+                                                                                                                                       line-height: 1.5;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   html {
+                                                                                                                                       font-size: 62.5%;
+                                                                                                                                       overflow: scroll;
+                                                                                                                                       scroll-behavior: smooth;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   body {
+                                                                                                                                       background-image: url('../images/slider-bg.png');
+                                                                                                                                       background-attachment: fixed;
+                                                                                                                                       background-position: center;
+                                                                                                                                       background-size: cover;
+                                                                                                                                       background-repeat: no-repeat;
+                                                                                                                                       position: fixed;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .logo img {
+                                                                                                                                       width: 80px;
+                                                                                                                                       height: 80px;
+                                                                                                                                       border-radius: 80px;
+                                                                                                                                       position: absolute;
+                                                                                                                                       top: 10px;
+                                                                                                                                       left: 15rem;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .nav-bar {
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       margin-top: 0px 0px 0px 0px;
+                                                                                                                                       height: 120px;
+                                                                                                                                       width: 100%;
+                                                                                                                                       position: fixed;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items {
+                                                                                                                                       display: flex;
+                                                                                                                                       flex-wrap: nowrap;
+                                                                                                                                       position: relative;
+                                                                                                                                       left: 37rem;
+                                                                                                                                       top: 5rem;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li {
+                                                                                                                                       list-style: none;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items a {
+                                                                                                                                       color: var(--white-color);
+                                                                                                                                       font-family: 'Lobster', cursive;
+                                                                                                                                       padding: 15px;
+                                                                                                                                       font-size: 20px;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li .sub-menu1 {
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: none;
+                                                                                                                                       width: 16rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li .sub-menu2 {
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 18rem;
+                                                                                                                                       top: 5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: none;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li .sub-menu3 {
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 37rem;
+                                                                                                                                       top: 5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: none;
+                                                                                                                                       width: 15rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li .sub-menu4 {
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: none;
+                                                                                                                                       width: 20rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li:hover .sub-menu1 {
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 4rem;
+                                                                                                                                       top: 5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: center;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: block;
+                                                                                                                                       width: 22rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li:hover .sub-menu2 {
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 16rem;
+                                                                                                                                       top: 5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: block;
+                                                                                                                                       width: 25rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li:hover .sub-menu1 a,
+                                                                                                                                   .sub-menu2 a,
+                                                                                                                                   .sub-menu3 a,
+                                                                                                                                   .sub-menu4 a {
+                                                                                                                                       line-height: 50px;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li:hover .sub-menu3 {
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 25rem;
+                                                                                                                                       top: 5.5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: block;
+                                                                                                                                       width: 27rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu-items li:hover .sub-menu4 {
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 42rem;
+                                                                                                                                       top: 5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       align-items: justify;
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       display: block;
+                                                                                                                                       width: 20rem;
+                                                                                                                                       z-index: 500;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   #cart {
+                                                                                                                                       font-size: 30px;
+                                                                                                                                       position: absolute;
+                                                                                                                                       left: 95rem;
+                                                                                                                                       top: -.6rem;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .menu {
+                                                                                                                                       width: 50px;
+                                                                                                                                       height: 50px;
+                                                                                                                                       position: absolute;
+                                                                                                                                       top: 1rem;
+                                                                                                                                       left: 2rem;
+                                                                                                                                       visibility: hidden;
+                                                                                                                                       display: flex;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .section1 {
+                                                                                                                                       width: 500px;
+                                                                                                                                       height: 200px;
+                                                                                                                                       margin-top: 50px;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .slider {
+                                                                                                                                       background-color: var(--blue-color);
+                                                                                                                                       width: 40rem;
+                                                                                                                                       line-height: 100%;
+                                                                                                                                       font-size: 17px;
+                                                                                                                                       padding-top: 5rem;
+                                                                                                                                       text-align: center;
+                                                                                                                                       z-index: 999;
+                                                                                                                                       opacity: .9;
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   .slider a {
+                                                                                                                                       font-weight: bold;
+                                                                                                                                   }
+                                                                                                                                   /*********************************** MEDIA QUERY NAVBAR ******************************/
+                                                                                                                                   
+                                                                                                                                   @media (max-width:1350px) {
+                                                                                                                                       .logo img {
+                                                                                                                                           width: 60px;
+                                                                                                                                           height: 60px;
+                                                                                                                                           border-radius: 60px;
+                                                                                                                                           position: absolute;
+                                                                                                                                           top: 5px;
+                                                                                                                                           left: 30rem;
+                                                                                                                                       }
+                                                                                                                                       .nav-bar {
+                                                                                                                                           width: 100%;
+                                                                                                                                       }
+                                                                                                                                       .menu-items {
+                                                                                                                                           display: flex;
+                                                                                                                                           flex-wrap: wrap;
+                                                                                                                                           position: relative;
+                                                                                                                                           left: 14rem;
+                                                                                                                                           top: 8rem;
+                                                                                                                                       }
+                                                                                                                                       #cart {
+                                                                                                                                           font-size: 30px;
+                                                                                                                                           position: absolute;
+                                                                                                                                           left: 98rem;
+                                                                                                                                           top: -.6rem;
+                                                                                                                                       }
+                                                                                                                                       .menu-items li:hover .sub-menu1 {
+                                                                                                                                           position: absolute;
+                                                                                                                                           left: 4rem;
+                                                                                                                                           top: 4rem;
+                                                                                                                                           text-align: center;
+                                                                                                                                           align-items: center;
+                                                                                                                                           background-color: var(--blue-color);
+                                                                                                                                           display: block;
+                                                                                                                                           width: 22rem;
+                                                                                                                                           z-index: 500;
+                                                                                                                                       }
+                                                                                                                                       .menu-items li:hover .sub-menu2 {
+                                                                                                                                           position: absolute;
+                                                                                                                                           left: 14rem;
+                                                                                                                                           top: 4rem;
+                                                                                                                                           text-align: center;
+                                                                                                                                           align-items: justify;
+                                                                                                                                           background-color: var(--blue-color);
+                                                                                                                                           display: block;
+                                                                                                                                           width: 25rem;
+                                                                                                                                           z-index: 500;
+                                                                                                                                       }
+                                                                                                                                       .menu-items li:hover .sub-menu3 {
+                                                                                                                                           position: absolute;
+                                                                                                                                           left: 26rem;
+                                                                                                                                           top: 4rem;
+                                                                                                                                           text-align: center;
+                                                                                                                                           align-items: justify;
+                                                                                                                                           background-color: var(--blue-color);
+                                                                                                                                           display: block;
+                                                                                                                                           width: 27rem;
+                                                                                                                                           z-index: 500;
+                                                                                                                                       }
+                                                                                                                                       .menu-items li:hover .sub-menu4 {
+                                                                                                                                           position: absolute;
+                                                                                                                                           left: 42rem;
+                                                                                                                                           top: 4rem;
+                                                                                                                                           text-align: center;
+                                                                                                                                           align-items: justify;
+                                                                                                                                           background-color: var(--blue-color);
+                                                                                                                                           display: block;
+                                                                                                                                           width: 20rem;
+                                                                                                                                           text-shadow: 2px 2px 5px red;
+                                                                                                                                           box-shadow: 4px 4px 5px rgb(24, 191, 221);
+                                                                                                                                           border-bottom-left-radius: 5px;
+                                                                                                                                           border-bottom-right-radius: 5px;
+                                                                                                                                           z-index: 500;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:1180px) {
+                                                                                                                                       .logo img {
+                                                                                                                                           width: 60px;
+                                                                                                                                           height: 60px;
+                                                                                                                                           border-radius: 60px;
+                                                                                                                                           position: absolute;
+                                                                                                                                           top: 5px;
+                                                                                                                                           left: 50rem;
+                                                                                                                                           transition: 2s ease;
+                                                                                                                                       }
+                                                                                                                                       .nav-bar {
+                                                                                                                                           width: 100%;
+                                                                                                                                       }
+                                                                                                                                       .menu-items {
+                                                                                                                                           display: flex;
+                                                                                                                                           flex-wrap: wrap;
+                                                                                                                                           position: relative;
+                                                                                                                                           left: 7rem;
+                                                                                                                                           top: 8rem;
+                                                                                                                                           transition: 2 ease;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:1125px) {
+                                                                                                                                       .logo img {
+                                                                                                                                           width: 60px;
+                                                                                                                                           height: 60px;
+                                                                                                                                           border-radius: 60px;
+                                                                                                                                           position: absolute;
+                                                                                                                                           top: 30px;
+                                                                                                                                           left: 10rem;
+                                                                                                                                           transition: 1s ease;
+                                                                                                                                       }
+                                                                                                                                       .nav-bar {
+                                                                                                                                           width: 100%;
+                                                                                                                                       }
+                                                                                                                                       .menu-items {
+                                                                                                                                           visibility: hidden;
+                                                                                                                                       }
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 90%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                       .menu div:hover {
+                                                                                                                                           color: rgb(255, 106, 0);
+                                                                                                                                           cursor: pointer;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:1025px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 85%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:991px) {
+                                                                                                                                       .logo img {
+                                                                                                                                           width: 60px;
+                                                                                                                                           height: 60px;
+                                                                                                                                           border-radius: 60px;
+                                                                                                                                           position: absolute;
+                                                                                                                                           top: 30px;
+                                                                                                                                           left: 10rem;
+                                                                                                                                           transition: 1s ease;
+                                                                                                                                       }
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 90%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:915px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 47%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:805px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 40%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:768px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 40%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:645px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 80%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:605px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 35%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:485px) {
+                                                                                                                                       .logo img {
+                                                                                                                                           width: 60px;
+                                                                                                                                           height: 60px;
+                                                                                                                                           border-radius: 60px;
+                                                                                                                                           position: absolute;
+                                                                                                                                           top: 30px;
+                                                                                                                                           left: 10rem;
+                                                                                                                                           transition: 1s ease;
+                                                                                                                                       }
+                                                                                                                                       .nav-bar {
+                                                                                                                                           width: 100%;
+                                                                                                                                       }
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 75%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:547px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 72%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:415px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 57%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   
+                                                                                                                                   @media (max-width:380px) {
+                                                                                                                                       .menu {
+                                                                                                                                           font-size: 50px;
+                                                                                                                                           visibility: visible;
+                                                                                                                                           margin-left: 80%;
+                                                                                                                                           margin-top: 1%;
+                                                                                                                                       }
+                                                                                                                                   }
+                                                                                                                                   /*********************************** END MEDIA QUERY NAVBAR ******************************/
