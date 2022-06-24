@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/accueil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="shortcut icon" href="../images/TanHealth.jpeg" type="image/jpeg">
+    <script src="../js/Jquery/jquery-3.6.0.js.js"></script>
     <title>Projet-TaNHealth</title>
+    <script>
+        $(document).ready(function() {
+            $('.slider').hide();
+            $('.menu').click(function() {
+                $('.slider').toggle("slide");
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <nav class="nav-bar">
-        <div class="logo">LOGO</div>
+    <div class="nav-bar">
+
+        <div class="logo">
+            <a href="accueil.html"><img src="../images/TanHealth.jpeg" alt="logo"></a>
+        </div>
+        <div class="menu">
+            <div class="text-light menu-toggle"> <i class="fa fa-bars"></i> </div>
+        </div>
         <div class="menu-items">
             <li> <a href="#">Home </a></li>
             <li> <a href="#">Medecine <i class="fas fa-angle-down"></i></a>
@@ -45,29 +62,94 @@
                     </ul>
                 </div>
             </li>
-            <li>
-                <li class="orthers">
-                    <a href="#">Orthers <i class="fas fa-angle-down"></i></a>
-                    <div class="sub-menu4">
-                        <ul>
-                            <li><a href="#">Patient portal</a></li>
-                            <li><a href="#">Client portal</a></li>
-                            <li><a href="#">Event</a></li>
-                            <li><a href="#">Supplement</a></li>
-                            <li><a href="#">Out vitamins</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li> <a href="#">Services</a> </li>
-                <li> <a href="#">Contact us</a> </li>
-                <li> <a href="#">About us</a> </li>
 
-                <li>
-                    <a href="#"> <i id="cart" class="fas fa-shopping-basket"></i></a>
-                </li>
+            <li class="orthers">
+                <a href="#">Orthers <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu4">
+                    <ul>
+                        <li><a href="#">Patient portal</a></li>
+                        <li><a href="#">Client portal</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Supplement</a></li>
+                        <li><a href="#">Out vitamins</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li> <a href="#">Services</a> </li>
+            <li> <a href="#">Contact us</a> </li>
+            <li> <a href="#">About us</a> </li>
+
+            <li>
+                <a href="#"> <i id="cart" class="fas fa-shopping-basket"></i></a>
+            </li>
         </div>
-    </nav>
-    <script src="../js/javaScript/accueil.js"></script>
+    </div>
+    <div class="slider text-light text-center">
+        <div class="container fw-bold">
+            <span style="font-size:20px ;" class="bg-primary"> <a class="text-light" href="#">Home</a></span>
+        </div>
+        <hr class="bg-warning">
+        <div class="container">
+            <span style="font-size:20px ;" class="bg-primary text-light" data-toggle="collapse" data-target="#home"> <a class="text-light" href="#">Medecine <i class="fas fa-angle-down"></i></span>
+            <div id="home" class="collapse">
+                <a class="text-light text-center" href="#">Dic</a><br>
+                <a class="text-light text-center" href="#">Telehealth</a><br>
+                <a class="text-light text-center" href="#">Out patient</a><br>
+                <a class="text-light text-center" href="#">Medical consulting</a><br>
+            </div>
+        </div>
+        <hr class="bg-warning">
+        <div class="container">
+            <span style="font-size:20px ;" class="bg-primary text-light" data-toggle="collapse" data-target="#public"> <a class="text-light" href="#">Public <i class="fas fa-angle-down"></i></span>
+            <div id="public" class="collapse">
+                <a class="text-light text-center" href="#">Project management</a><br>
+                <a class="text-light text-center" href="#">Clinical research</a><br>
+                <a class="text-light text-center" href="#">Presentative medecine</a>
+
+            </div>
+        </div>
+        <hr class="bg-warning">
+        <div class="container">
+            <span style="font-size:20px ;" class="bg-primary text-light" data-toggle="collapse" data-target="#Pharmacy"> <a class="text-light" href="#">Pharmacy <i class="fas fa-angle-down"></i></span>
+            <div id="Pharmacy" class="collapse">
+                <a class="text-light text-center" href="#">Telepharmacy</a><br>
+                <a class="text-light text-center" href="#">Out patient PMP</a><br>
+                <a class="text-light text-center" href="#">Consulting of PMP</a>
+                <a class="text-light text-center" href="#">Vitamin and Supplement</a>
+
+            </div>
+        </div>
+        <hr class="bg-warning">
+        <div class="container">
+            <span style="font-size:20px ;" class="bg-primary text-light" data-toggle="collapse" data-target="#others"> <a class="text-light" href="#">Orthers <i class="fas fa-angle-down"></i></span>
+            <div id="others" class="collapse">
+                <a class="text-light text-center" href="#">Patient portal</a><br>
+                <a class="text-light text-center" href="#">Client portal</a><br>
+                <a class="text-light text-center" href="#">Event</a>
+                <a class="text-light text-center" href="#"> Supplement</a>
+                <a class="text-light text-center" href="#"> Out vitamins</a>
+
+            </div>
+        </div>
+        <hr class="bg-warning">
+        <a class="text-light text-center" href="#">Services</a><br>
+        <hr class="bg-warning">
+        <a class="text-light text-center" href="#">Contact us</a><br>
+        <hr class="bg-warning">
+        <a class="text-light text-center" href="#">About us</a><br>
+        <hr class="bg-warning">
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="../js/Jquery/jquery-3.6.0.js.js"></script>
+<script src="../js/javaScript/accueil.js"></script>
 </body>
 
 </html>
