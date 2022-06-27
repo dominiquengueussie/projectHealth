@@ -3,7 +3,7 @@
 <head>
     <script type="text/javascript">
         function RedirectionJavascript() {
-            document.location.href = "http://localhost/projectHealth/pages/accueil.html";
+            document.location.href = "https://github.com/dominiquengueussie/projectHealth/blob/main/pages/accueil.html";
         }
     </script>
 </head>
